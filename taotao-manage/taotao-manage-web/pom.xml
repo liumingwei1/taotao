@@ -12,6 +12,7 @@
     <name>taotao-manage-web Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+
         <dependency>
             <groupId>com.taotao.manage</groupId>
             <artifactId>taotao-manage-service</artifactId>
