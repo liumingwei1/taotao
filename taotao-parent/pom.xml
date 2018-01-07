@@ -119,7 +119,7 @@
         <version>0.8.0.RELEASE</version>
       </dependency>
 
-      <!-- httpclient -->
+      <!-- httpClient -->
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
         <artifactId>httpclient</artifactId>
