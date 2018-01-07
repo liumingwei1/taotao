@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="/js/jquery-easyui-1.4.1/jquery.easyui.min.js"></script>
+    <script type="text/javascript">
+        alert($);
+        $(function () {
+            $.ajax({
+                url : "/json.jsp",
+                type : "get",
+                dateType : "json",
+                success : function (date) {
+                    alert(date.abc);
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>
